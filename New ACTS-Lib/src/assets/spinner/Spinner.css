@@ -1,0 +1,19 @@
+
+.spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #4F9E4D; /* Change color as needed */
+    border-radius: 50%;
+    width: 100px; /* Size of the spinner */
+    height: 100px;
+    animation: spin 1.15s infinite linear;
+    margin: auto; /* Center the spinner */
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
